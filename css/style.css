@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #000000;
+  min-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main-header {
+  background-color: #ffffff;
+}
+
+.main-header-logo {
+  padding: 72px 18px;
+  width: 160px;
+}
+
+
+.main-navigation {
+  min-height: 100px;
+  
+  display: flex;
+  
+  
+  flex-direction: column;
+  
+  align-items: center;
+  background-color: transparent;
+  font-size: 13px;
+  line-height: 26px;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  font-weight: 700;
+}
+
+.nav-container {
+  width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+.site-navigation {
+  
+  display: flex;
+  
+  justify-content: flex-start;
+  padding: 0;
+  text-transform: uppercase;
+  width: 1200px;
+  
+  flex-wrap: wrap;
+  margin: 0;
+  margin-top: -77px;
+  margin-left: -14px;
+}
+
+.site-navigation-current {
+  position: relative;
+}
+
+
+
+.site-navigation-wrapper {
+  width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  min-width: 560px;
+}
+
+.site-navigation a {
+  padding: 12px 75px;
+  display: block;
+  vertical-align: middle;
+  color: #000000;
+}
+
+.site-navigation-item,
+.site-navigation-current {
+  margin: 0;
+  
+  list-style: none;
+}
+
+.site-navigation-item a:hover,
+.site-navigation-item a:focus {
+  color: #92bdd8;
+}
+
+.site-navigation-item a:active,
+.user-navigation a:active {
+  color: #b2b2b2;
+}
+.site-navigation-item:nth-child(3) a {
+  position: absolute;
+  width: 91px;
+  
+  top: 3px;
+  right: 429px;
+}
+.site-navigation-item:nth-child(4) a {
+  position: absolute;
+  width: 91px;
+  
+  top: 3px;
+  right: 178px;
+}
